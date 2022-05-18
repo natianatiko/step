@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+
+}
+.box{
+    width: 100%;
+
+}
+.content{
+    width: 50%;
+    background-color: blueviolet;
+
+}
+.table{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.col{
+    width: 33.33333%;
+    padding: 0 15px;
+}
+.col div{
+    height: 150px;
+    background-color: black;
+}
+.mycon{
+    width: 150px;
+    background-color: #e40d0d;
+    padding: 25px;
+}
+
+.vw{
+    width: 50vw;
+    height: 200px;
+    background-color: blue;
+}
+.mycon{
+    width: 200px;
+    background-color: #e40d0d;
+}
+header{
+    height: 100vh;
+    background-color: aqua;
+}
+.textbox{
+    font-size: 2rem;
+}
+.textbox::before{
+content: attr(title);
+}

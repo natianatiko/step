@@ -1,0 +1,29 @@
+@font-face {
+    font-family: banner;
+    src: url('../fonts/bpg-banner-webfont.woff');
+}
+
+.image {
+    position: fixed;
+    top: 0;
+}
+
+img {
+    width: 550px;
+    height: 450px;
+}
+h1{
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: banner;
+    color: rgb(45, 129, 255);
+}
+p{
+    font-size: 34px;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    color: rgb(31, 203, 255);
+}

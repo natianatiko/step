@@ -1,0 +1,89 @@
+@font-face {
+    font-family:banner ;
+    src: url(../fonts/bpg-banner-webfont.ttf );
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.text_white{
+    color: white;
+}
+.img1, .img2, .img3{
+    width: 200px;
+    border-radius: 5px;
+}
+.img2{
+    height: 200px;
+}
+.img3{
+    background: url(images/254673.jpg);
+}
+.headline{
+    padding: 10px;
+}
+.row{
+    width: 200px;
+    margin: 50px;
+    border-radius: 2px;
+    border: 1px solid whitesmoke;
+}
+p{
+    padding: 10px;
+}
+.row p{
+    font-size: 10px;
+    line-height: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.img1{
+    border-bottom-right-radius:30px;
+    height: 50%;
+}
+.blue{
+    color: blue;
+    position: relative;
+    top: 30px;
+    padding: 10px;
+}
+.circle {
+    background: orange;
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    position:relative;
+    bottom: 25px;
+    left: 150px;
+}
+.move{
+    position: relative;
+    left: 13px;
+    top:12px;
+}
+.noncollor{
+    color: black;
+}
+.img3 a{
+    padding: 10px;
+}
+.img3{
+position: relative;
+}
+.card3{
+    position: absolute; 
+    bottom: 0px;
+    right: 0px;
+    margin-bottom: 20px;
+}
+a:hover{
+    color: red;
+}
